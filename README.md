@@ -1,2 +1,2 @@
 # wp-plugin-alex-customizer
-the project in  master branch -- See branches
+the project is in  master branch -- See branches
