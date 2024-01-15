@@ -10,21 +10,6 @@ use WP_Customize_Image_Control;
 use WP_Customize_Manager;
 
 
-/**
- * Custom controls add here
- */
-
-/**
- * add libs file here
- */
-
-
-/**
- * add custom section class files here
- */
-require_once plugin_dir_path(__DIR__) . 'App/FooterSection/FooterSection.php';
-require_once plugin_dir_path(__DIR__) . 'App/SocialSection/SocialSection.php';
-
 
 
 
@@ -33,7 +18,17 @@ class AppCore {
 	private static $instance;
 
 	public function __construct (){
+		/**
+		 * add require file
+		 */
+		$this->addRequire();
+
+
 		$this->init();
+	}
+
+	private function addRequire(){
+		require_once plugin_dir_path(__DIR__) . 'App/include.php';
 	}
 
 
