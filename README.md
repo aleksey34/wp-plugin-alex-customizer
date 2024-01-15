@@ -1,2 +1,3 @@
 # wp-plugin-alex-customizer
-the project is in  master branch -- See branches
+Set settings for wp customizer 
+
